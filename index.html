@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Rizky Ramadhani — student developer portfolio.">
+  <meta name="theme-color" content="#f4f1d8">
+  <title>Rizky Ramadhani — Portfolio</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="page-loader" aria-hidden="true">
+    <span class="loader-word">Rizky<span>.</span></span>
+  </div>
+
+  <div class="scroll-progress" aria-hidden="true"></div>
+
+  <header class="header">
+    <a href="#home" class="logo" data-nav="home">Rizky<span>.</span></a>
+
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#work" data-nav="work">Work</a>
+      <a href="#capabilities" data-nav="capabilities">Capabilities</a>
+      <a href="#stack" data-nav="stack">Stack</a>
+      <a href="#beyond" data-nav="beyond">Beyond</a>
+      <a href="#about" data-nav="about">About</a>
+      <a href="#contact" data-nav="contact">Contact</a>
+    </nav>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-index reveal reveal-left">01 / PORTFOLIO</div>
+
+      <div class="hero-main">
+        <p class="eyebrow reveal">Student Developer · Indonesia</p>
+
+        <h1 class="hero-title">
+          <span class="hero-line reveal">I BUILD</span>
+          <span class="hero-line reveal reveal-delay-1 hero-serif">DIGITAL</span>
+          <span class="hero-line reveal reveal-delay-2">THINGS.</span>
+        </h1>
+
+        <div class="hero-bottom reveal reveal-delay-3">
+          <p>
+            I'm Rizky Ramadhani, a student developer exploring
+            web, mobile, game development, and creative technology.
+          </p>
+
+          <a href="#work" class="circle-link" aria-label="Scroll to selected work">
+            <span>↓</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-photo reveal reveal-right">
+        <div class="photo-orbit orbit-one" aria-hidden="true"></div>
+        <div class="photo-orbit orbit-two" aria-hidden="true"></div>
+
+        <div class="photo-frame photo-frame-back" aria-hidden="true"></div>
+
+        <div class="photo-frame">
+          <img
+            src="https://avatars.githubusercontent.com/u/89049405?s=512&v=4"
+            alt="Rizky Ramadhani profile photo from GitHub"
+          >
+          <div class="photo-shade" aria-hidden="true"></div>
+
+          <div class="photo-caption">
+            <span>@rizkyramadhani10</span>
+            <span>GitHub ↗</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-watermark" aria-hidden="true">CREATIVE / TECHNOLOGY</div>
+    </section>
+
+    <section class="work section" id="work">
+      <div class="section-top reveal">
+        <p class="section-label">02 / SELECTED WORK</p>
+        <a class="all-work magnetic" href="https://github.com/rizkyramadhani10?tab=repositories" target="_blank" rel="noreferrer">
+          All repositories ↗
+        </a>
+      </div>
+
+      <div id="projects" class="project-list">
+        <div class="loading">Loading projects…</div>
+      </div>
+    </section>
+
+    <section class="capabilities section" id="capabilities">
+      <div class="section-top reveal">
+        <p class="section-label">03 / WHAT I CAN BUILD</p>
+        <span class="section-note">Small ideas, real projects.</span>
+      </div>
+
+      <div class="capability-list">
+        <a class="capability reveal" href="#work">
+          <span class="capability-number">01</span>
+          <div class="capability-copy">
+            <h3>Web Development</h3>
+            <p>Responsive websites, landing pages, and simple web applications.</p>
+          </div>
+          <span class="capability-arrow">↗</span>
+        </a>
+
+        <a class="capability reveal reveal-delay-1" href="#work">
+          <span class="capability-number">02</span>
+          <div class="capability-copy">
+            <h3>Mobile Development</h3>
+            <p>Flutter interfaces and functional applications for everyday use.</p>
+          </div>
+          <span class="capability-arrow">↗</span>
+        </a>
+
+        <a class="capability reveal reveal-delay-2" href="#work">
+          <span class="capability-number">03</span>
+          <div class="capability-copy">
+            <h3>UI / Visual Design</h3>
+            <p>Clean interfaces, visual systems, and layouts for digital projects.</p>
+          </div>
+          <span class="capability-arrow">↗</span>
+        </a>
+
+        <a class="capability reveal reveal-delay-3" href="#work">
+          <span class="capability-number">04</span>
+          <div class="capability-copy">
+            <h3>Prototypes & Experiments</h3>
+            <p>Bots, game prototypes, utilities, and technical experiments.</p>
+          </div>
+          <span class="capability-arrow">↗</span>
+        </a>
+      </div>
+    </section>
+
+
+    <section class="stack section" id="stack">
+      <div class="section-top reveal">
+        <p class="section-label">04 / TECH I USE</p>
+        <span class="section-note">Tools for turning ideas into things.</span>
+      </div>
+
+      <div class="stack-intro reveal">
+        <h2>MY <span>STACK.</span></h2>
+        <p>Languages, frameworks, platforms, and tools I keep reaching for while building.</p>
+      </div>
+
+      <div class="tech-marquee tech-marquee-forward" aria-label="Technology stack, moving right">
+        <div class="tech-track">
+          <div class="tech-set">
+            <span class="tech-item"><i class="devicon-html5-plain" aria-hidden="true"></i><b>HTML5</b></span>
+            <span class="tech-item"><i class="devicon-css3-plain" aria-hidden="true"></i><b>CSS3</b></span>
+            <span class="tech-item"><i class="devicon-javascript-plain" aria-hidden="true"></i><b>JavaScript</b></span>
+            <span class="tech-item"><i class="devicon-php-plain" aria-hidden="true"></i><b>PHP</b></span>
+            <span class="tech-item"><i class="devicon-laravel-original" aria-hidden="true"></i><b>Laravel</b></span>
+            <span class="tech-item"><i class="devicon-mysql-plain" aria-hidden="true"></i><b>MySQL</b></span>
+          </div>
+          <div class="tech-set" aria-hidden="true">
+            <span class="tech-item"><i class="devicon-html5-plain" aria-hidden="true"></i><b>HTML5</b></span>
+            <span class="tech-item"><i class="devicon-css3-plain" aria-hidden="true"></i><b>CSS3</b></span>
+            <span class="tech-item"><i class="devicon-javascript-plain" aria-hidden="true"></i><b>JavaScript</b></span>
+            <span class="tech-item"><i class="devicon-php-plain" aria-hidden="true"></i><b>PHP</b></span>
+            <span class="tech-item"><i class="devicon-laravel-original" aria-hidden="true"></i><b>Laravel</b></span>
+            <span class="tech-item"><i class="devicon-mysql-plain" aria-hidden="true"></i><b>MySQL</b></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="tech-marquee tech-marquee-reverse" aria-label="Technology stack, moving left">
+        <div class="tech-track">
+          <div class="tech-set">
+            <span class="tech-item"><i class="devicon-flutter-plain" aria-hidden="true"></i><b>Flutter</b></span>
+            <span class="tech-item"><i class="devicon-dart-plain" aria-hidden="true"></i><b>Dart</b></span>
+            <span class="tech-item"><i class="devicon-firebase-plain" aria-hidden="true"></i><b>Firebase</b></span>
+            <span class="tech-item"><i class="devicon-git-plain" aria-hidden="true"></i><b>Git</b></span>
+            <span class="tech-item"><i class="devicon-github-original" aria-hidden="true"></i><b>GitHub</b></span>
+            <span class="tech-item"><i class="devicon-python-plain" aria-hidden="true"></i><b>Python</b></span>
+          </div>
+          <div class="tech-set" aria-hidden="true">
+            <span class="tech-item"><i class="devicon-flutter-plain" aria-hidden="true"></i><b>Flutter</b></span>
+            <span class="tech-item"><i class="devicon-dart-plain" aria-hidden="true"></i><b>Dart</b></span>
+            <span class="tech-item"><i class="devicon-firebase-plain" aria-hidden="true"></i><b>Firebase</b></span>
+            <span class="tech-item"><i class="devicon-git-plain" aria-hidden="true"></i><b>Git</b></span>
+            <span class="tech-item"><i class="devicon-github-original" aria-hidden="true"></i><b>GitHub</b></span>
+            <span class="tech-item"><i class="devicon-python-plain" aria-hidden="true"></i><b>Python</b></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="beyond section" id="beyond">
+      <div class="section-top reveal">
+        <p class="section-label">05 / BEYOND THE SCREEN</p>
+        <span class="section-note">Photography · Video · Visual journal</span>
+      </div>
+
+      <div class="beyond-intro">
+        <div class="beyond-title-wrap reveal">
+          <h2>I LIKE TO<br><span>CAPTURE</span><br>MOMENTS.</h2>
+        </div>
+
+        <div class="beyond-copy reveal reveal-delay-1">
+          <p class="beyond-lead">I spend a lot of time building things on a screen. Photography gives me a reason to step away from it.</p>
+          <p>Whenever I get the chance, I take a picture. When something feels worth remembering, I take a video. Capturing those little moments, places, and details I don't want to lose.</p>
+          <span class="beyond-meta">SHOT WHENEVER I CAN / 2024 — NOW</span>
+        </div>
+      </div>
+
+      <div class="photo-journal">
+        <figure class="journal-feature reveal reveal-delay-1">
+          <div class="journal-image" tabindex="0" role="group">
+            <img src="assets/galleries/c_structure.jpeg" alt="Featured photography from Rizky's visual journal" loading="lazy">
+            <div class="journal-placeholder">
+              <span>01</span>
+              <strong>FEATURE<br>FRAME</strong>
+            </div>
+            <div class="journal-hover">
+              <span>01 / FRIENDS</span>
+              <p>Every place leaves something behind. Sometimes I just want to keep the frame.</p>
+            </div>
+            <span class="journal-corner">01 / FEATURED</span>
+          </div>
+          <figcaption>
+            <span>01</span>
+            <p>A frame from somewhere I happened to be.</p>
+          </figcaption>
+        </figure>
+
+        <figure class="journal-card journal-card-a reveal reveal-delay-2">
+          <div class="journal-image" tabindex="0" role="group">
+            <img src="assets/galleries/right_side_second.jpg" alt="Photography detail from Rizky's visual journal" loading="lazy">
+            <div class="journal-placeholder">
+              <span>02</span>
+              <strong>DETAIL<br>STUDY</strong>
+            </div>
+            <div class="journal-hover">
+              <span>02 / FAMILY</span>
+              <p>A small thing can hold the whole mood</p>
+            </div>
+          </div>
+          <figcaption>
+            <span>02</span>
+            <p>Small thing is what make me stop for a moment.</p>
+          </figcaption>
+        </figure>
+
+        <figure class="journal-card journal-card-b reveal reveal-delay-3">
+          <div class="journal-image" tabindex="0" role="group">
+            <img src="assets/galleries/right_side_third.jpg" alt="Photography moment from Rizky's visual journal" loading="lazy">
+            <div class="journal-placeholder">
+              <span>03</span>
+              <strong>SMALL<br>MOMENT</strong>
+            </div>
+            <div class="journal-hover">
+              <span>03 / NATURE</span>
+              <p>Nothing planned. Just something worth keeping.</p>
+            </div>
+          </div>
+          <figcaption>
+            <span>03</span>
+            <p>Nature gives me a moment to breathe.</p>
+          </figcaption>
+        </figure>
+
+        <figure class="journal-card journal-card-c reveal reveal-delay-2">
+          <div class="journal-image" tabindex="0" role="group">
+            <img src="assets/galleries/xpplg.jpeg" alt="Fourth photography frame from Rizky's visual journal" loading="lazy">
+            <div class="journal-placeholder">
+              <span>04</span>
+              <strong>OPEN<br>FRAME</strong>
+            </div>
+            <div class="journal-hover">
+              <span>04 / MEMORIA</span>
+              <p>How lucky I am to have something that makes saying goodbye so hard.</p>
+            </div>
+          </div>
+          <figcaption>
+            <span>04</span>
+            <p>A new frame waiting for a story.</p>
+          </figcaption>
+        </figure>
+
+        <div class="journal-note reveal reveal-delay-3">
+          <span class="journal-note-mark">↗</span>
+          <p>Photography, video, and little things I notice along the way.</p>
+          <span class="journal-note-label">VISUAL JOURNAL</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="section-top reveal">
+        <p class="section-label">06 / ABOUT</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-identity reveal">
+          <h2>
+            Learning by<br>
+            <span class="serif-accent">making.</span>
+          </h2>
+        </div>
+
+        <div class="about-side reveal reveal-delay-1">
+          <figure class="about-photo" tabindex="0" aria-label="Hover to reveal another portrait">
+            <div class="about-photo-back" aria-hidden="true">
+              <img src="assets/about/about-city.jpg" alt="Blurred city lights at night" loading="lazy">
+            </div>
+
+            <div class="about-photo-main">
+              <img src="assets/about/about-flash.png" alt="Rizky portrait in black and white" loading="lazy">
+            </div>
+
+            <div class="about-photo-hover">
+              <img src="assets/about/about-film.jpg" alt="Rizky portrait" loading="lazy">
+            </div>
+
+            <div class="about-photo-vignette" aria-hidden="true"></div>
+
+            <div class="about-photo-resting" aria-hidden="true">
+              <span>RIZKY RAMADHANI</span>
+              <small>1033</small>
+            </div>
+
+            <div class="about-photo-message">
+              <span>ABOUT / A LITTLE FRAME</span>
+              <p>I don't always take pictures for a reason. Sometimes I just want to remember how a moment felt.</p>
+            </div>
+          </figure>
+
+          <div class="about-photo-meta">
+            <span>01 / SELF PORTRAIT</span>
+            <span>HOVER TO REVEAL ↗</span>
+          </div>
+
+          <div class="about-photo-note">
+            <span>VISUAL NOTE</span>
+            <p>Most of the time, I'm somewhere between building something and noticing something.</p>
+          </div>
+
+          <div class="about-copy">
+            <p>
+              Hello! My name is Rizky Ramadhani,
+              I'm a student with a strong interest in technology and
+              digital creation. Most of what I learn comes from building
+              things are websites, applications, bots, games, and experiments.
+            </p>
+
+            <p>
+              I'm currently expanding my skills across frontend development,
+              backend systems, Flutter, game development, and visual design.
+            </p>
+
+            <div class="about-details">
+              <div>
+                <span>Based in</span>
+                <strong>Indonesia</strong>
+              </div>
+              <div>
+                <span>Focus</span>
+                <strong>Web · Mobile · Game</strong>
+              </div>
+              <div>
+                <span>GitHub</span>
+                <strong id="repoCount">— repositories</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="section-top reveal">
+        <p class="section-label">07 / CONTACT</p>
+      </div>
+
+      <div class="contact-content">
+        <h2 class="reveal">
+          LET'S MAKE<br>
+          <span class="something">something!!</span>
+        </h2>
+
+        <div class="contact-links reveal reveal-delay-1">
+          <a href="https://github.com/rizkyramadhani10" target="_blank" rel="noreferrer">
+            <span>GitHub</span><b>↗</b>
+          </a>
+          <a href="https://instagram.com/acciolumen_" target="_blank" rel="noreferrer">
+            <span>Instagram</span><b>↗</b>
+          </a>
+          <a href="mailto:rizkyramadhani1090@gmail.com">
+            <span>Email</span><b>↗</b>
+          </a>
+          <a id="whatsappLink" href="#" target="_blank" rel="noreferrer">
+            <span>WhatsApp</span><b>↗</b>
+          </a>
+        </div>
+      </div>
+
+      <div class="contact-marquee" aria-hidden="true">
+        <div class="marquee-track">
+          <span>BUILD · EXPLORE · EXPERIMENT · REPEAT · </span>
+          <span>BUILD · EXPLORE · EXPERIMENT · REPEAT · </span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <button class="back-to-top" id="backToTop" type="button" aria-label="Back to top">
+    <span>↑</span>
+  </button>
+
+  <footer class="footer">
+    <a href="#home" class="logo">Rizky<span>.</span></a>
+    <span>© <span id="year"></span> Rizky Ramadhani</span>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
